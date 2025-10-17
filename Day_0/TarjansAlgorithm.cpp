@@ -31,7 +31,7 @@ public:
                 }
             }
             else {
-                tLow[src] = min(tLow[src], tLow[nbr]);
+                tLow[src] = min(tLow[src], tInsertion[nbr]);
             }
         }
     }
